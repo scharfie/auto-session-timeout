@@ -26,7 +26,7 @@ if (typeof(Ajax) != 'undefined') {
   });
 }
 JS
-    javascript_tag(code)
+    javascript_tag(code, :type => "text/javascript")
   end
 end
 
